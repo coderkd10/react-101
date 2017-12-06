@@ -1,7 +1,6 @@
 {
-  "name": "lp-examples",
-  "version": "0.1.0",
-  "private": true,
+  "name": "react-101",
+  "version": "1.0.0",
   "dependencies": {
     "markdown-it": "^8.4.0",
     "markdown-it-emoji": "^1.4.0",
@@ -14,5 +13,21 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "I was getting started with learning react.   [React's landing page](https://reactjs.org/#exmaples) has a couple of cool demos.   So I decided to implement them myself and add my own twists!",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderkd10/react-101.git"
+  },
+  "keywords": [
+    "react",
+    "getting-started"
+  ],
+  "author": "Abhishek Kedia <kedia.abhishek10@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderkd10/react-101/issues"
+  },
+  "homepage": "https://github.com/coderkd10/react-101#readme"
 }
