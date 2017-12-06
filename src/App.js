@@ -16,7 +16,7 @@ class App extends Component {
           <h1 className="App-title">React 101</h1>
         </header>
         <p className="App-intro">
-          Examples from <a href='https://reactjs.org/#exmaples'>react's landing page</a>
+          Examples from <a href='https://reactjs.org/#exmaples'>react&#39;s landing page</a>
         </p>
 
         {/* This is a comment */}
