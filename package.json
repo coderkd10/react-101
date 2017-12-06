@@ -12,10 +12,14 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "description": "I was getting started with learning react.   [React's landing page](https://reactjs.org/#exmaples) has a couple of cool demos.   So I decided to implement them myself and add my own twists!",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/coderkd10/react-101.git"
